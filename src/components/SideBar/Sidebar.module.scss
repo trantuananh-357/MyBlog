@@ -1,0 +1,95 @@
+.sideBar {
+    flex: 3 1;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: fit-content;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sideBar-item_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            margin-top: 26px;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .sideBar-item_title {
+            text-align: center;
+            padding: 10px;
+            font-weight: 600;
+            width: 80%;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .sideBar-item_desc {
+            width: 80%;
+            font-size: 14px;
+            margin: 26px 0;
+        }
+    }
+    .sideBar-item_caterogies {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .sideBar-item_title {
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            width: 50%;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+
+        .siderBar-item_list {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            .siderBar-item_listItem {
+                width: 50%;
+                text-align: center;
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .sideBar-itemFol {
+        margin-top: 50px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+        flex-direction: column;
+        .sideBar-item_title {
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            width: 50%;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+        }
+        .social-icon {
+            margin: 20px 10px;
+        }
+
+        .sourseDev {
+            display: flex;
+            opacity: 0.7;
+        }
+    }
+}
